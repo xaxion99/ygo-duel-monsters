@@ -1,0 +1,2386 @@
+[
+    {
+        "Number": "2",
+        "Name": "Mystical Elf",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "264",
+                    "Name": "Wing Egg Elf"
+                },
+                "Material2": {
+                    "Number": "183",
+                    "Name": "Lucky Trinket"
+                }
+            }
+        ]
+    },
+    {
+        "Number": "9",
+        "Name": "Shadow Specter",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "202",
+                    "Name": "Air Marmot of Nefa"
+                },
+                "Material2": {
+                    "Number": "24",
+                    "Name": "Skull Servant"
+                }
+            }
+        ]
+    },
+    {
+        "Number": "11",
+        "Name": "Sword Arm of Drago",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "225",
+                    "Name": "Fiend Sword"
+                },
+                "Material2": [
+                    {
+                        "Number": "4",
+                        "Name": "Baby Dragon"
+                    },
+                    {
+                        "Number": "7",
+                        "Name": "Winged Dragon #1"
+                    },
+                    {
+                        "Number": "10",
+                        "Name": "Blackland Fire Dra"
+                    },
+                    {
+                        "Number": "31",
+                        "Name": "Koumori Dragon"
+                    },
+                    {
+                        "Number": "94",
+                        "Name": "Crawling Dragon"
+                    },
+                    {
+                        "Number": "122",
+                        "Name": "Yamatano Dragon Sc"
+                    },
+                    {
+                        "Number": "200",
+                        "Name": "Petit Dragon"
+                    },
+                    {
+                        "Number": "296",
+                        "Name": "One-eyed Shield Dr"
+                    },
+                    {
+                        "Number": "298",
+                        "Name": "Wicked Dragon with"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "15",
+        "Name": "Flame Swordsman",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "133",
+                        "Name": "Charubin the Fire"
+                    },
+                    {
+                        "Number": "142",
+                        "Name": "Flame Manipulator"
+                    },
+                    {
+                        "Number": "168",
+                        "Name": "Darkfire Dragon"
+                    },
+                    {
+                        "Number": "176",
+                        "Name": "Fire Eye"
+                    },
+                    {
+                        "Number": "215",
+                        "Name": "Flame Ghost"
+                    },
+                    {
+                        "Number": "272",
+                        "Name": "Mavelus"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "12",
+                        "Name": "Swamp Battleguard"
+                    },
+                    {
+                        "Number": "41",
+                        "Name": "Celtic Guardian"
+                    },
+                    {
+                        "Number": "43",
+                        "Name": "Karbonala Warrior"
+                    },
+                    {
+                        "Number": "66",
+                        "Name": "Kojikocy"
+                    },
+                    {
+                        "Number": "78",
+                        "Name": "Axe Raider"
+                    },
+                    {
+                        "Number": "93",
+                        "Name": "Zanki"
+                    },
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "110",
+                        "Name": "Hero of the East"
+                    },
+                    {
+                        "Number": "118",
+                        "Name": "Supporter in the S"
+                    },
+                    {
+                        "Number": "120",
+                        "Name": "Dream Clown"
+                    },
+                    {
+                        "Number": "127",
+                        "Name": "Ansatsu"
+                    },
+                    {
+                        "Number": "128",
+                        "Name": "LaMoon"
+                    },
+                    {
+                        "Number": "138",
+                        "Name": "Dragon Statue"
+                    },
+                    {
+                        "Number": "147",
+                        "Name": "Monster Egg"
+                    },
+                    {
+                        "Number": "151",
+                        "Name": "Rhaimundos of the"
+                    },
+                    {
+                        "Number": "156",
+                        "Name": "Hard Armor"
+                    },
+                    {
+                        "Number": "160",
+                        "Name": "M-warrior #1"
+                    },
+                    {
+                        "Number": "161",
+                        "Name": "M-warrior #2"
+                    },
+                    {
+                        "Number": "165",
+                        "Name": "The Judgement Hand"
+                    },
+                    {
+                        "Number": "166",
+                        "Name": "Mysterious Puppete"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "182",
+                        "Name": "Masked Clown"
+                    },
+                    {
+                        "Number": "185",
+                        "Name": "Eyearmor"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "224",
+                        "Name": "Trap Master"
+                    },
+                    {
+                        "Number": "225",
+                        "Name": "Fiend Sword"
+                    },
+                    {
+                        "Number": "226",
+                        "Name": "Skull Stalker"
+                    },
+                    {
+                        "Number": "231",
+                        "Name": "Wood Clown"
+                    },
+                    {
+                        "Number": "234",
+                        "Name": "Beautiful Headhunt"
+                    },
+                    {
+                        "Number": "235",
+                        "Name": "Wodan the Resident"
+                    },
+                    {
+                        "Number": "236",
+                        "Name": "Guardian of the La"
+                    },
+                    {
+                        "Number": "239",
+                        "Name": "Vishwar Randi"
+                    },
+                    {
+                        "Number": "250",
+                        "Name": "Hyo"
+                    },
+                    {
+                        "Number": "256",
+                        "Name": "Dimensional Knight"
+                    },
+                    {
+                        "Number": "262",
+                        "Name": "The Little Swordsm"
+                    },
+                    {
+                        "Number": "266",
+                        "Name": "Princess of Tsurug"
+                    },
+                    {
+                        "Number": "267",
+                        "Name": "Unknown Warrior of"
+                    },
+                    {
+                        "Number": "280",
+                        "Name": "Protector of the T"
+                    },
+                    {
+                        "Number": "290",
+                        "Name": "Moon Envoy"
+                    },
+                    {
+                        "Number": "293",
+                        "Name": "Masaki the Legenda"
+                    },
+                    {
+                        "Number": "294",
+                        "Name": "Dragoness the Wick"
+                    },
+                    {
+                        "Number": "299",
+                        "Name": "Sonic Maid"
+                    }
+                ]
+            },
+            {
+                "Material1": {
+                    "Number": "291",
+                    "Name": "Fireyarou"
+                },
+                "Material2": [
+                    {
+                        "Number": "12",
+                        "Name": "Swamp Battleguard"
+                    },
+                    {
+                        "Number": "41",
+                        "Name": "Celtic Guardian"
+                    },
+                    {
+                        "Number": "43",
+                        "Name": "Karbonala Warrior"
+                    },
+                    {
+                        "Number": "66",
+                        "Name": "Kojikocy"
+                    },
+                    {
+                        "Number": "78",
+                        "Name": "Axe Raider"
+                    },
+                    {
+                        "Number": "93",
+                        "Name": "Zanki"
+                    },
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "110",
+                        "Name": "Hero of the East"
+                    },
+                    {
+                        "Number": "118",
+                        "Name": "Supporter in the S"
+                    },
+                    {
+                        "Number": "120",
+                        "Name": "Dream Clown"
+                    },
+                    {
+                        "Number": "128",
+                        "Name": "LaMoon"
+                    },
+                    {
+                        "Number": "138",
+                        "Name": "Dragon Statue"
+                    },
+                    {
+                        "Number": "147",
+                        "Name": "Monster Egg"
+                    },
+                    {
+                        "Number": "151",
+                        "Name": "Rhaimundos of the"
+                    },
+                    {
+                        "Number": "156",
+                        "Name": "Hard Armor"
+                    },
+                    {
+                        "Number": "160",
+                        "Name": "M-warrior #1"
+                    },
+                    {
+                        "Number": "161",
+                        "Name": "M-warrior #2"
+                    },
+                    {
+                        "Number": "165",
+                        "Name": "The Judgement Hand"
+                    },
+                    {
+                        "Number": "166",
+                        "Name": "Mysterious Puppete"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "182",
+                        "Name": "Masked Clown"
+                    },
+                    {
+                        "Number": "185",
+                        "Name": "Eyearmor"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "224",
+                        "Name": "Trap Master"
+                    },
+                    {
+                        "Number": "225",
+                        "Name": "Fiend Sword"
+                    },
+                    {
+                        "Number": "226",
+                        "Name": "Skull Stalker"
+                    },
+                    {
+                        "Number": "231",
+                        "Name": "Wood Clown"
+                    },
+                    {
+                        "Number": "234",
+                        "Name": "Beautiful Headhunt"
+                    },
+                    {
+                        "Number": "235",
+                        "Name": "Wodan the Resident"
+                    },
+                    {
+                        "Number": "236",
+                        "Name": "Guardian of the La"
+                    },
+                    {
+                        "Number": "239",
+                        "Name": "Vishwar Randi"
+                    },
+                    {
+                        "Number": "250",
+                        "Name": "Hyo"
+                    },
+                    {
+                        "Number": "256",
+                        "Name": "Dimensional Knight"
+                    },
+                    {
+                        "Number": "262",
+                        "Name": "The Little Swordsm"
+                    },
+                    {
+                        "Number": "266",
+                        "Name": "Princess of Tsurug"
+                    },
+                    {
+                        "Number": "267",
+                        "Name": "Unknown Warrior of"
+                    },
+                    {
+                        "Number": "280",
+                        "Name": "Protector of the T"
+                    },
+                    {
+                        "Number": "290",
+                        "Name": "Moon Envoy"
+                    },
+                    {
+                        "Number": "293",
+                        "Name": "Masaki the Legenda"
+                    },
+                    {
+                        "Number": "294",
+                        "Name": "Dragoness the Wick"
+                    },
+                    {
+                        "Number": "299",
+                        "Name": "Sonic Maid"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "22",
+        "Name": "Summoned Skull",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "254",
+                    "Name": "Embryonic Beast"
+                },
+                "Material2": {
+                    "Number": "16",
+                    "Name": "Time Wizard"
+                }
+            },
+            {
+                "Material1": {
+                    "Number": "103",
+                    "Name": "Job-change Mirror"
+                },
+                "Material2": {
+                    "Number": "85",
+                    "Name": "King of Yamimakai"
+                }
+            }
+        ]
+    },
+    {
+        "Number": "28",
+        "Name": "Rock Ogre Grotto#1",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "263",
+                    "Name": "Rock Ogre Grotto#2"
+                },
+                "Material2": [
+                    {
+                        "Number": "9",
+                        "Name": "Shadow Specter"
+                    },
+                    {
+                        "Number": "16",
+                        "Name": "Time Wizard"
+                    },
+                    {
+                        "Number": "17",
+                        "Name": "R Leg of Forbidden"
+                    },
+                    {
+                        "Number": "18",
+                        "Name": "L Leg of Forbidden"
+                    },
+                    {
+                        "Number": "19",
+                        "Name": "R Arm of Forbidden"
+                    },
+                    {
+                        "Number": "20",
+                        "Name": "L Arm of Forbidden"
+                    },
+                    {
+                        "Number": "24",
+                        "Name": "Skull Servant"
+                    },
+                    {
+                        "Number": "29",
+                        "Name": "Mountain Warrior"
+                    },
+                    {
+                        "Number": "34",
+                        "Name": "Saggi the Dark Clo"
+                    },
+                    {
+                        "Number": "50",
+                        "Name": "Basic Insect"
+                    },
+                    {
+                        "Number": "56",
+                        "Name": "Larvae Moth"
+                    },
+                    {
+                        "Number": "58",
+                        "Name": "Kuriboh"
+                    },
+                    {
+                        "Number": "72",
+                        "Name": "Cocoon of Evolutio"
+                    },
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "104",
+                        "Name": "Curtain of the Dar"
+                    },
+                    {
+                        "Number": "105",
+                        "Name": "Tomozaurus"
+                    },
+                    {
+                        "Number": "108",
+                        "Name": "Graveyard & Hand"
+                    },
+                    {
+                        "Number": "121",
+                        "Name": "Sleeping Lion"
+                    },
+                    {
+                        "Number": "123",
+                        "Name": "Dark Plant"
+                    },
+                    {
+                        "Number": "130",
+                        "Name": "Weather Control"
+                    },
+                    {
+                        "Number": "134",
+                        "Name": "Mystical Capture C"
+                    },
+                    {
+                        "Number": "135",
+                        "Name": "Fiend's Hand"
+                    },
+                    {
+                        "Number": "137",
+                        "Name": "Mystery Hand"
+                    },
+                    {
+                        "Number": "141",
+                        "Name": "Spiked Snail"
+                    },
+                    {
+                        "Number": "144",
+                        "Name": "Wind Djinn"
+                    },
+                    {
+                        "Number": "145",
+                        "Name": "Phantom Thief"
+                    },
+                    {
+                        "Number": "147",
+                        "Name": "Monster Egg"
+                    },
+                    {
+                        "Number": "152",
+                        "Name": "The Melting Red Sh"
+                    },
+                    {
+                        "Number": "156",
+                        "Name": "Hard Armor"
+                    },
+                    {
+                        "Number": "159",
+                        "Name": "Dig Beak"
+                    },
+                    {
+                        "Number": "167",
+                        "Name": "Ancient Jar"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "173",
+                        "Name": "Dark Prisoner"
+                    },
+                    {
+                        "Number": "179",
+                        "Name": "Phantom Dewan"
+                    },
+                    {
+                        "Number": "182",
+                        "Name": "Masked Clown"
+                    },
+                    {
+                        "Number": "183",
+                        "Name": "Lucky Trinket"
+                    },
+                    {
+                        "Number": "184",
+                        "Name": "Genin"
+                    },
+                    {
+                        "Number": "185",
+                        "Name": "Eyearmor"
+                    },
+                    {
+                        "Number": "187",
+                        "Name": "Gate Deeg"
+                    },
+                    {
+                        "Number": "191",
+                        "Name": "LaLa Li-oon"
+                    },
+                    {
+                        "Number": "192",
+                        "Name": "Key Mace"
+                    },
+                    {
+                        "Number": "197",
+                        "Name": "Mech Mole Zombie"
+                    },
+                    {
+                        "Number": "200",
+                        "Name": "Petit Dragon"
+                    },
+                    {
+                        "Number": "296",
+                        "Name": "One-eyed Shield Dr"
+                    },
+                    {
+                        "Number": "298",
+                        "Name": "Wicked Dragon with"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "30",
+        "Name": "Zombie Warrior",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "24",
+                        "Name": "Skull Servant"
+                    },
+                    {
+                        "Number": "241",
+                        "Name": "Dark Assailant"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "110",
+                        "Name": "Hero of the East"
+                    },
+                    {
+                        "Number": "118",
+                        "Name": "Supporter in the S"
+                    },
+                    {
+                        "Number": "120",
+                        "Name": "Dream Clown"
+                    },
+                    {
+                        "Number": "138",
+                        "Name": "Dragon Statue"
+                    },
+                    {
+                        "Number": "147",
+                        "Name": "Monster Egg"
+                    },
+                    {
+                        "Number": "151",
+                        "Name": "Rhaimundos of the"
+                    },
+                    {
+                        "Number": "156",
+                        "Name": "Hard Armor"
+                    },
+                    {
+                        "Number": "160",
+                        "Name": "M-warrior #1"
+                    },
+                    {
+                        "Number": "161",
+                        "Name": "M-warrior #2"
+                    },
+                    {
+                        "Number": "166",
+                        "Name": "Mysterious Puppete"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "182",
+                        "Name": "Masked Clown"
+                    },
+                    {
+                        "Number": "185",
+                        "Name": "Eyearmor"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "224",
+                        "Name": "Trap Master"
+                    },
+                    {
+                        "Number": "225",
+                        "Name": "Fiend Sword"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "33",
+        "Name": "Judge Man",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "225",
+                    "Name": "Fiend Sword"
+                },
+                "Material2": [
+                    {
+                        "Number": "78",
+                        "Name": "Axe Raider"
+                    },
+                    {
+                        "Number": "127",
+                        "Name": "Ansatsu"
+                    },
+                    {
+                        "Number": "234",
+                        "Name": "Beautiful Headhunt"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "35",
+        "Name": "D.Magician",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "104",
+                    "Name": "Curtain of the Dar"
+                },
+                "Material2": [
+                    {
+                        "Number": "44",
+                        "Name": "Rogue Doll"
+                    },
+                    {
+                        "Number": "106",
+                        "Name": "Spirit of the Wind"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "36",
+        "Name": "The Snake Hair",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "108",
+                    "Name": "Graveyard & Hand"
+                },
+                "Material2": [
+                    {
+                        "Number": "139",
+                        "Name": "B.eye Silv. Zombie"
+                    },
+                    {
+                        "Number": "146",
+                        "Name": "Temple of Skulls"
+                    },
+                    {
+                        "Number": "153",
+                        "Name": "Dokuroizo the Grim"
+                    },
+                    {
+                        "Number": "215",
+                        "Name": "Flame Ghost"
+                    },
+                    {
+                        "Number": "228",
+                        "Name": "Wood Remains"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "37",
+        "Name": "Gaia the Dragon Ch",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "39",
+                    "Name": "Curse of Dragon"
+                },
+                "Material2": {
+                    "Number": "38",
+                    "Name": "Gaia The Fierce Kn"
+                }
+            }
+        ]
+    },
+    {
+        "Number": "38",
+        "Name": "Gaia The Fierce Kn",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "225",
+                    "Name": "Fiend Sword"
+                },
+                "Material2": [
+                    {
+                        "Number": "12",
+                        "Name": "Swamp Battleguard"
+                    },
+                    {
+                        "Number": "15",
+                        "Name": "Flame Swordsman"
+                    },
+                    {
+                        "Number": "33",
+                        "Name": "Judge Man"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "41",
+        "Name": "Celtic Guardian",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "2",
+                        "Name": "Mystical Elf"
+                    },
+                    {
+                        "Number": "264",
+                        "Name": "Wing Egg Elf"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "110",
+                        "Name": "Hero of the East"
+                    },
+                    {
+                        "Number": "118",
+                        "Name": "Supporter in the S"
+                    },
+                    {
+                        "Number": "120",
+                        "Name": "Dream Clown"
+                    },
+                    {
+                        "Number": "138",
+                        "Name": "Dragon Statue"
+                    },
+                    {
+                        "Number": "147",
+                        "Name": "Monster Egg"
+                    },
+                    {
+                        "Number": "151",
+                        "Name": "Rhaimundos of the"
+                    },
+                    {
+                        "Number": "156",
+                        "Name": "Hard Armor"
+                    },
+                    {
+                        "Number": "160",
+                        "Name": "M-warrior #1"
+                    },
+                    {
+                        "Number": "161",
+                        "Name": "M-warrior #2"
+                    },
+                    {
+                        "Number": "165",
+                        "Name": "The Judgement Hand"
+                    },
+                    {
+                        "Number": "166",
+                        "Name": "Mysterious Puppete"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "182",
+                        "Name": "Masked Clown"
+                    },
+                    {
+                        "Number": "185",
+                        "Name": "Eyearmor"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "224",
+                        "Name": "Trap Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "42",
+        "Name": "Faceless Mage",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "104",
+                    "Name": "Curtain of the Dar"
+                },
+                "Material2": [
+                    {
+                        "Number": "16",
+                        "Name": "Time Wizard"
+                    },
+                    {
+                        "Number": "17",
+                        "Name": "R Leg of Forbidden"
+                    },
+                    {
+                        "Number": "18",
+                        "Name": "L Leg of Forbidden"
+                    },
+                    {
+                        "Number": "19",
+                        "Name": "R Arm of Forbidden"
+                    },
+                    {
+                        "Number": "20",
+                        "Name": "L Arm of Forbidden"
+                    },
+                    {
+                        "Number": "34",
+                        "Name": "Saggi the Dark Clo"
+                    },
+                    {
+                        "Number": "104",
+                        "Name": "Curtain of the Dar"
+                    },
+                    {
+                        "Number": "183",
+                        "Name": "Lucky Trinket"
+                    },
+                    {
+                        "Number": "184",
+                        "Name": "Genin"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "43",
+        "Name": "Karbonala Warrior",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "161",
+                    "Name": "M-warrior #2"
+                },
+                "Material2": {
+                    "Number": "160",
+                    "Name": "M-warrior #1"
+                }
+            }
+        ]
+    },
+    {
+        "Number": "44",
+        "Name": "Rogue Doll",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "104",
+                    "Name": "Curtain of the Dar"
+                },
+                "Material2": [
+                    {
+                        "Number": "21",
+                        "Name": "Exod. of Forbidden"
+                    },
+                    {
+                        "Number": "114",
+                        "Name": "White Magical Hat"
+                    },
+                    {
+                        "Number": "142",
+                        "Name": "Flame Manipulator"
+                    },
+                    {
+                        "Number": "174",
+                        "Name": "Hurricail"
+                    },
+                    {
+                        "Number": "190",
+                        "Name": "Akakieisu"
+                    },
+                    {
+                        "Number": "220",
+                        "Name": "Masked Sorcerer"
+                    },
+                    {
+                        "Number": "259",
+                        "Name": "Ancient Sorcerer"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "63",
+        "Name": "Harpie Lady Sister",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "62",
+                    "Name": "Harpie Lady"
+                },
+                "Material2": {
+                    "Number": "318",
+                    "Name": "Elegant Egotist"
+                }
+            }
+        ]
+    },
+    {
+        "Number": "69",
+        "Name": "Thousand Dragon",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "16",
+                    "Name": "Time Wizard"
+                },
+                "Material2": {
+                    "Number": "4",
+                    "Name": "Baby Dragon"
+                }
+            }
+        ]
+    },
+    {
+        "Number": "74",
+        "Name": "Giant Rock Soldier",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "263",
+                    "Name": "Rock Ogre Grotto#2"
+                },
+                "Material2": [
+                    {
+                        "Number": "2",
+                        "Name": "Mystical Elf"
+                    },
+                    {
+                        "Number": "3",
+                        "Name": "Hitotsu-me Giant"
+                    },
+                    {
+                        "Number": "4",
+                        "Name": "Baby Dragon"
+                    },
+                    {
+                        "Number": "5",
+                        "Name": "Ryu-kishin"
+                    },
+                    {
+                        "Number": "6",
+                        "Name": "Feral Imp"
+                    },
+                    {
+                        "Number": "8",
+                        "Name": "Mushroom Man"
+                    },
+                    {
+                        "Number": "13",
+                        "Name": "Tyhone"
+                    },
+                    {
+                        "Number": "21",
+                        "Name": "Exod. of Forbidden"
+                    },
+                    {
+                        "Number": "25",
+                        "Name": "Horn Imp"
+                    },
+                    {
+                        "Number": "27",
+                        "Name": "Beaver Warrior"
+                    },
+                    {
+                        "Number": "28",
+                        "Name": "Rock Ogre Grotto#1"
+                    },
+                    {
+                        "Number": "30",
+                        "Name": "Zombie Warrior"
+                    },
+                    {
+                        "Number": "42",
+                        "Name": "Faceless Mage"
+                    },
+                    {
+                        "Number": "45",
+                        "Name": "Oscillo Hero #2"
+                    },
+                    {
+                        "Number": "46",
+                        "Name": "Griffore"
+                    },
+                    {
+                        "Number": "47",
+                        "Name": "Torike"
+                    },
+                    {
+                        "Number": "48",
+                        "Name": "Sangan"
+                    },
+                    {
+                        "Number": "49",
+                        "Name": "Big Insect"
+                    },
+                    {
+                        "Number": "53",
+                        "Name": "Killer Needle"
+                    },
+                    {
+                        "Number": "54",
+                        "Name": "Gokibore"
+                    },
+                    {
+                        "Number": "59",
+                        "Name": "Mammoth Graveyard"
+                    },
+                    {
+                        "Number": "61",
+                        "Name": "Wolf"
+                    },
+                    {
+                        "Number": "62",
+                        "Name": "Harpie Lady"
+                    },
+                    {
+                        "Number": "64",
+                        "Name": "Tiger Axe"
+                    },
+                    {
+                        "Number": "65",
+                        "Name": "Silver Fang"
+                    },
+                    {
+                        "Number": "70",
+                        "Name": "Fiend Kraken"
+                    },
+                    {
+                        "Number": "71",
+                        "Name": "Jellyfish"
+                    },
+                    {
+                        "Number": "75",
+                        "Name": "Man-eating Plant"
+                    },
+                    {
+                        "Number": "76",
+                        "Name": "Krokodilus"
+                    },
+                    {
+                        "Number": "77",
+                        "Name": "Grappler"
+                    },
+                    {
+                        "Number": "83",
+                        "Name": "Castle of D. Magic"
+                    },
+                    {
+                        "Number": "88",
+                        "Name": "Metal Guardian"
+                    },
+                    {
+                        "Number": "89",
+                        "Name": "Catapult Turtle"
+                    },
+                    {
+                        "Number": "91",
+                        "Name": "Mystic Horseman"
+                    },
+                    {
+                        "Number": "102",
+                        "Name": "Mask of Darkness"
+                    },
+                    {
+                        "Number": "103",
+                        "Name": "Job-change Mirror"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "109",
+                        "Name": "All-seeing Goddess"
+                    },
+                    {
+                        "Number": "110",
+                        "Name": "Hero of the East"
+                    },
+                    {
+                        "Number": "112",
+                        "Name": "Life Eater"
+                    },
+                    {
+                        "Number": "113",
+                        "Name": "Dark Gray"
+                    },
+                    {
+                        "Number": "114",
+                        "Name": "White Magical Hat"
+                    },
+                    {
+                        "Number": "115",
+                        "Name": "Kamionwizard"
+                    },
+                    {
+                        "Number": "116",
+                        "Name": "Nightmare Scorpion"
+                    },
+                    {
+                        "Number": "118",
+                        "Name": "Supporter in the S"
+                    },
+                    {
+                        "Number": "119",
+                        "Name": "Trial of Nightmare"
+                    },
+                    {
+                        "Number": "120",
+                        "Name": "Dream Clown"
+                    },
+                    {
+                        "Number": "122",
+                        "Name": "Yamatano Dragon Sc"
+                    },
+                    {
+                        "Number": "128",
+                        "Name": "LaMoon"
+                    },
+                    {
+                        "Number": "129",
+                        "Name": "Nemuriko"
+                    },
+                    {
+                        "Number": "132",
+                        "Name": "The 13th Grave"
+                    },
+                    {
+                        "Number": "133",
+                        "Name": "Charubin the Fire"
+                    },
+                    {
+                        "Number": "138",
+                        "Name": "Dragon Statue"
+                    },
+                    {
+                        "Number": "139",
+                        "Name": "B.eye Silv. Zombie"
+                    },
+                    {
+                        "Number": "140",
+                        "Name": "Toad Master"
+                    },
+                    {
+                        "Number": "141",
+                        "Name": "Chronolord"
+                    },
+                    {
+                        "Number": "146",
+                        "Name": "Temple of Skulls"
+                    },
+                    {
+                        "Number": "148",
+                        "Name": "Sinister Shadow"
+                    },
+                    {
+                        "Number": "151",
+                        "Name": "Rhaimundos of the"
+                    },
+                    {
+                        "Number": "153",
+                        "Name": "Dokuroizo the Grim"
+                    },
+                    {
+                        "Number": "155",
+                        "Name": "Larvas"
+                    },
+                    {
+                        "Number": "158",
+                        "Name": "Man Eater"
+                    },
+                    {
+                        "Number": "160",
+                        "Name": "M-warrior #1"
+                    },
+                    {
+                        "Number": "161",
+                        "Name": "M-warrior #2"
+                    },
+                    {
+                        "Number": "162",
+                        "Name": "Tainted Wisdom"
+                    },
+                    {
+                        "Number": "163",
+                        "Name": "Lisark"
+                    },
+                    {
+                        "Number": "164",
+                        "Name": "Lord of Zemia"
+                    },
+                    {
+                        "Number": "166",
+                        "Name": "Mysterious Puppete"
+                    },
+                    {
+                        "Number": "169",
+                        "Name": "Dark King of the A"
+                    },
+                    {
+                        "Number": "170",
+                        "Name": "Spirit of the Harp"
+                    },
+                    {
+                        "Number": "171",
+                        "Name": "Big Eye"
+                    },
+                    {
+                        "Number": "174",
+                        "Name": "Hurricail"
+                    },
+                    {
+                        "Number": "175",
+                        "Name": "Ancient Brain"
+                    },
+                    {
+                        "Number": "177",
+                        "Name": "Monsturtle"
+                    },
+                    {
+                        "Number": "178",
+                        "Name": "Claw Reacher"
+                    },
+                    {
+                        "Number": "180",
+                        "Name": "Arlownay"
+                    },
+                    {
+                        "Number": "181",
+                        "Name": "Dark Shade"
+                    },
+                    {
+                        "Number": "186",
+                        "Name": "Fiend Reflection#2"
+                    },
+                    {
+                        "Number": "188",
+                        "Name": "Synchar"
+                    },
+                    {
+                        "Number": "190",
+                        "Name": "Akakieisu"
+                    },
+                    {
+                        "Number": "193",
+                        "Name": "Turtle Tiger"
+                    },
+                    {
+                        "Number": "194",
+                        "Name": "Terra the Terrible"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "196",
+                        "Name": "Arma Knight"
+                    },
+                    {
+                        "Number": "198",
+                        "Name": "Happy Lover"
+                    },
+                    {
+                        "Number": "199",
+                        "Name": "Penguin Knight"
+                    },
+                    {
+                        "Number": "201",
+                        "Name": "Frenzied Panda"
+                    },
+                    {
+                        "Number": "205",
+                        "Name": "Dorover"
+                    },
+                    {
+                        "Number": "206",
+                        "Name": "Twin Long Rods#1"
+                    },
+                    {
+                        "Number": "213",
+                        "Name": "Aqua Madoor"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "215",
+                        "Name": "Flame Ghost"
+                    },
+                    {
+                        "Number": "216",
+                        "Name": "Dryad"
+                    },
+                    {
+                        "Number": "218",
+                        "Name": "Two-mouth Darkrule"
+                    },
+                    {
+                        "Number": "219",
+                        "Name": "Solitude"
+                    },
+                    {
+                        "Number": "220",
+                        "Name": "Masked Sorcerer"
+                    },
+                    {
+                        "Number": "222",
+                        "Name": "Midnight Fiend"
+                    },
+                    {
+                        "Number": "226",
+                        "Name": "Skull Stalker"
+                    },
+                    {
+                        "Number": "228",
+                        "Name": "Wood Remains"
+                    },
+                    {
+                        "Number": "231",
+                        "Name": "Wood Clown"
+                    },
+                    {
+                        "Number": "233",
+                        "Name": "Dark Titan of Terr"
+                    },
+                    {
+                        "Number": "235",
+                        "Name": "Wodan the Resident"
+                    },
+                    {
+                        "Number": "236",
+                        "Name": "Guardian of the La"
+                    },
+                    {
+                        "Number": "238",
+                        "Name": "Yashinoki"
+                    },
+                    {
+                        "Number": "239",
+                        "Name": "Vishwar Randi"
+                    },
+                    {
+                        "Number": "241",
+                        "Name": "Dark Assailant"
+                    },
+                    {
+                        "Number": "243",
+                        "Name": "Water Element"
+                    },
+                    {
+                        "Number": "244",
+                        "Name": "Dissolverock"
+                    },
+                    {
+                        "Number": "245",
+                        "Name": "Meda Bat"
+                    },
+                    {
+                        "Number": "246",
+                        "Name": "One Who Hunts Soul"
+                    },
+                    {
+                        "Number": "247",
+                        "Name": "Root Water"
+                    },
+                    {
+                        "Number": "248",
+                        "Name": "Master & Expert"
+                    },
+                    {
+                        "Number": "250",
+                        "Name": "Hyo"
+                    },
+                    {
+                        "Number": "251",
+                        "Name": "Enchanting Mermaid"
+                    },
+                    {
+                        "Number": "252",
+                        "Name": "Nekogal #1"
+                    },
+                    {
+                        "Number": "253",
+                        "Name": "Angelwitch"
+                    },
+                    {
+                        "Number": "256",
+                        "Name": "Dimensional Knight"
+                    },
+                    {
+                        "Number": "257",
+                        "Name": "Stone Armadiller"
+                    },
+                    {
+                        "Number": "258",
+                        "Name": "Beastking of the S"
+                    },
+                    {
+                        "Number": "259",
+                        "Name": "Ancient Sorcerer"
+                    },
+                    {
+                        "Number": "262",
+                        "Name": "The Little Swordsm"
+                    },
+                    {
+                        "Number": "265",
+                        "Name": "Sea King of Fury"
+                    },
+                    {
+                        "Number": "266",
+                        "Name": "Princess of Tsurug"
+                    },
+                    {
+                        "Number": "267",
+                        "Name": "Unknown Warrior of"
+                    },
+                    {
+                        "Number": "269",
+                        "Name": "Versago the Destro"
+                    },
+                    {
+                        "Number": "270",
+                        "Name": "Wetha"
+                    },
+                    {
+                        "Number": "271",
+                        "Name": "Megirus Light"
+                    },
+                    {
+                        "Number": "272",
+                        "Name": "Mavelus"
+                    },
+                    {
+                        "Number": "276",
+                        "Name": "Ray & Temperature"
+                    },
+                    {
+                        "Number": "279",
+                        "Name": "King Fog"
+                    },
+                    {
+                        "Number": "280",
+                        "Name": "Protector of the T"
+                    },
+                    {
+                        "Number": "282",
+                        "Name": "Mystical Sheep #2"
+                    },
+                    {
+                        "Number": "283",
+                        "Name": "Holograh"
+                    },
+                    {
+                        "Number": "284",
+                        "Name": "Tao the Chanter"
+                    },
+                    {
+                        "Number": "287",
+                        "Name": "Ogre of the Black"
+                    },
+                    {
+                        "Number": "290",
+                        "Name": "Moon Envoy"
+                    },
+                    {
+                        "Number": "291",
+                        "Name": "Fireyarou"
+                    },
+                    {
+                        "Number": "293",
+                        "Name": "Masaki the Legenda"
+                    },
+                    {
+                        "Number": "294",
+                        "Name": "Dragoness the Wick"
+                    },
+                    {
+                        "Number": "299",
+                        "Name": "Sonic Maid"
+                    },
+                    {
+                        "Number": "300",
+                        "Name": "Kurama"
+                    }
+                ]
+            },
+            {
+                "Material1": [
+                    {
+                        "Number": "24",
+                        "Name": "Skull Servant"
+                    },
+                    {
+                        "Number": "135",
+                        "Name": "Fiend's Hand"
+                    },
+                    {
+                        "Number": "197",
+                        "Name": "Mech Mole Zombie"
+                    },
+                    {
+                        "Number": "203",
+                        "Name": "Phantom Ghost"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "8",
+                        "Name": "Mushroom Man"
+                    },
+                    {
+                        "Number": "75",
+                        "Name": "Man-eating Plant"
+                    },
+                    {
+                        "Number": "123",
+                        "Name": "Dark Plant"
+                    },
+                    {
+                        "Number": "158",
+                        "Name": "Man Eater"
+                    },
+                    {
+                        "Number": "180",
+                        "Name": "Arlownay"
+                    },
+                    {
+                        "Number": "238",
+                        "Name": "Yashinoki"
+                    },
+                    {
+                        "Number": "273",
+                        "Name": "Ancient Tree of En"
+                    },
+                    {
+                        "Number": "274",
+                        "Name": "Green Phantom King"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "230",
+        "Name": "Rare Fish",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "247",
+                        "Name": "Root Water"
+                    },
+                    {
+                        "Number": "251",
+                        "Name": "Enchanting Mermaid"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "23",
+                        "Name": "The Wicked Worm B"
+                    },
+                    {
+                        "Number": "46",
+                        "Name": "Griffore"
+                    },
+                    {
+                        "Number": "47",
+                        "Name": "Torike"
+                    },
+                    {
+                        "Number": "61",
+                        "Name": "Wolf"
+                    },
+                    {
+                        "Number": "65",
+                        "Name": "Silver Fang"
+                    },
+                    {
+                        "Number": "91",
+                        "Name": "Mystic Horseman"
+                    },
+                    {
+                        "Number": "113",
+                        "Name": "Dark Gray"
+                    },
+                    {
+                        "Number": "121",
+                        "Name": "Sleeping Lion"
+                    },
+                    {
+                        "Number": "155",
+                        "Name": "Larvas"
+                    },
+                    {
+                        "Number": "159",
+                        "Name": "Dig Beak"
+                    },
+                    {
+                        "Number": "163",
+                        "Name": "Lisark"
+                    },
+                    {
+                        "Number": "187",
+                        "Name": "Gate Deeg"
+                    },
+                    {
+                        "Number": "188",
+                        "Name": "Synchar"
+                    },
+                    {
+                        "Number": "189",
+                        "Name": "Fusionist"
+                    },
+                    {
+                        "Number": "201",
+                        "Name": "Frenzied Panda"
+                    },
+                    {
+                        "Number": "202",
+                        "Name": "Air Marmot of Nefa"
+                    },
+                    {
+                        "Number": "212",
+                        "Name": "Meotoko"
+                    },
+                    {
+                        "Number": "248",
+                        "Name": "Master & Expert"
+                    },
+                    {
+                        "Number": "252",
+                        "Name": "Nekogal #1"
+                    },
+                    {
+                        "Number": "255",
+                        "Name": "Prevent Rat"
+                    },
+                    {
+                        "Number": "282",
+                        "Name": "Mystical Sheep #2"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "234",
+        "Name": "Beautiful Headhunt",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "225",
+                    "Name": "Fiend Sword"
+                },
+                "Material2": [
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "226",
+                        "Name": "Skull Stalker"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "241",
+        "Name": "Dark Assailant",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "146",
+                        "Name": "Temple of Skulls"
+                    },
+                    {
+                        "Number": "153",
+                        "Name": "Dokuroizo the Grim"
+                    },
+                    {
+                        "Number": "228",
+                        "Name": "Wood Remains"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "110",
+                        "Name": "Hero of the East"
+                    },
+                    {
+                        "Number": "118",
+                        "Name": "Supporter in the S"
+                    },
+                    {
+                        "Number": "120",
+                        "Name": "Dream Clown"
+                    },
+                    {
+                        "Number": "138",
+                        "Name": "Dragon Statue"
+                    },
+                    {
+                        "Number": "147",
+                        "Name": "Monster Egg"
+                    },
+                    {
+                        "Number": "151",
+                        "Name": "Rhaimundos of the"
+                    },
+                    {
+                        "Number": "156",
+                        "Name": "Hard Armor"
+                    },
+                    {
+                        "Number": "160",
+                        "Name": "M-warrior #1"
+                    },
+                    {
+                        "Number": "161",
+                        "Name": "M-warrior #2"
+                    },
+                    {
+                        "Number": "166",
+                        "Name": "Mysterious Puppete"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "182",
+                        "Name": "Masked Clown"
+                    },
+                    {
+                        "Number": "185",
+                        "Name": "Eyearmor"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "224",
+                        "Name": "Trap Master"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "244",
+        "Name": "Dissolverock",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "28",
+                        "Name": "Rock Ogre Grotto#1"
+                    },
+                    {
+                        "Number": "167",
+                        "Name": "Ancient Jar"
+                    },
+                    {
+                        "Number": "237",
+                        "Name": "Haniwa"
+                    },
+                    {
+                        "Number": "257",
+                        "Name": "Stone Armadiller"
+                    },
+                    {
+                        "Number": "263",
+                        "Name": "Rock Ogre Grotto#2"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "40",
+                        "Name": "Dragon Piper"
+                    },
+                    {
+                        "Number": "101",
+                        "Name": "Wings of Wicked Fl"
+                    },
+                    {
+                        "Number": "142",
+                        "Name": "Flame Manipulator"
+                    },
+                    {
+                        "Number": "154",
+                        "Name": "Fire Reaper"
+                    },
+                    {
+                        "Number": "157",
+                        "Name": "Firegrass"
+                    },
+                    {
+                        "Number": "176",
+                        "Name": "Fire Eye"
+                    },
+                    {
+                        "Number": "210",
+                        "Name": "Hinotama Soul"
+                    },
+                    {
+                        "Number": "242",
+                        "Name": "Candle of Destiny"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "251",
+        "Name": "Enchanting Mermaid",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "247",
+                    "Name": "Root Water"
+                },
+                "Material2": [
+                    {
+                        "Number": "2",
+                        "Name": "Mystical Elf"
+                    },
+                    {
+                        "Number": "109",
+                        "Name": "All-seeing Goddess"
+                    },
+                    {
+                        "Number": "128",
+                        "Name": "LaMoon"
+                    },
+                    {
+                        "Number": "129",
+                        "Name": "Nemuriko"
+                    },
+                    {
+                        "Number": "170",
+                        "Name": "Spirit of the Harp"
+                    },
+                    {
+                        "Number": "180",
+                        "Name": "Arlownay"
+                    },
+                    {
+                        "Number": "192",
+                        "Name": "Key Mace"
+                    },
+                    {
+                        "Number": "216",
+                        "Name": "Dryad"
+                    },
+                    {
+                        "Number": "239",
+                        "Name": "Vishwar Randi"
+                    },
+                    {
+                        "Number": "243",
+                        "Name": "Water Element"
+                    },
+                    {
+                        "Number": "253",
+                        "Name": "Angelwitch"
+                    },
+                    {
+                        "Number": "260",
+                        "Name": "Lunar Queen Elzaim"
+                    },
+                    {
+                        "Number": "266",
+                        "Name": "Princess of Tsurug"
+                    },
+                    {
+                        "Number": "280",
+                        "Name": "Protector of the T"
+                    },
+                    {
+                        "Number": "299",
+                        "Name": "Sonic Maid"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "272",
+        "Name": "Mavelus",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "62",
+                        "Name": "Harpie Lady"
+                    },
+                    {
+                        "Number": "186",
+                        "Name": "Fiend Reflection#2"
+                    },
+                    {
+                        "Number": "207",
+                        "Name": "Droll Bird"
+                    },
+                    {
+                        "Number": "300",
+                        "Name": "Kurama"
+                    },
+                    {
+                        "Number": "62",
+                        "Name": "Harpie Lady"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "40",
+                        "Name": "Dragon Piper"
+                    },
+                    {
+                        "Number": "101",
+                        "Name": "Wings of Wicked Fl"
+                    },
+                    {
+                        "Number": "133",
+                        "Name": "Charubin the Fire"
+                    },
+                    {
+                        "Number": "142",
+                        "Name": "Flame Manipulator"
+                    },
+                    {
+                        "Number": "154",
+                        "Name": "Fire Reaper"
+                    },
+                    {
+                        "Number": "157",
+                        "Name": "Firegrass"
+                    },
+                    {
+                        "Number": "176",
+                        "Name": "Fire Eye"
+                    },
+                    {
+                        "Number": "210",
+                        "Name": "Hinotama Soul"
+                    },
+                    {
+                        "Number": "215",
+                        "Name": "Flame Ghost"
+                    },
+                    {
+                        "Number": "291",
+                        "Name": "Fireyarou"
+                    },
+                    {
+                        "Number": "244",
+                        "Name": "Dissolverock"
+                    },
+                    {
+                        "Number": "242",
+                        "Name": "Candle of Destiny"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "281",
+        "Name": "Mystic Clown",
+        "Materials": [
+            {
+                "Material1": {
+                    "Number": "103",
+                    "Name": "Job-change Mirror"
+                },
+                "Material2": [
+                    {
+                        "Number": "5",
+                        "Name": "Ryu-kishin"
+                    },
+                    {
+                        "Number": "48",
+                        "Name": "Sangan"
+                    },
+                    {
+                        "Number": "88",
+                        "Name": "Metal Guardian"
+                    },
+                    {
+                        "Number": "175",
+                        "Name": "Ancient Brain"
+                    },
+                    {
+                        "Number": "178",
+                        "Name": "Claw Reacher"
+                    },
+                    {
+                        "Number": "181",
+                        "Name": "Dark Shade"
+                    },
+                    {
+                        "Number": "269",
+                        "Name": "Versago the Destro"
+                    },
+                    {
+                        "Number": "279",
+                        "Name": "King Fog"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Number": "294",
+        "Name": "Dragoness the Wick",
+        "Materials": [
+            {
+                "Material1": [
+                    {
+                        "Number": "4",
+                        "Name": "Baby Dragon"
+                    },
+                    {
+                        "Number": "122",
+                        "Name": "Yamatano Dragon Sc"
+                    },
+                    {
+                        "Number": "200",
+                        "Name": "Petit Dragon"
+                    },
+                    {
+                        "Number": "296",
+                        "Name": "One-eyed Shield Dr"
+                    },
+                    {
+                        "Number": "298",
+                        "Name": "Wicked Dragon with"
+                    }
+                ],
+                "Material2": [
+                    {
+                        "Number": "100",
+                        "Name": "Battle Warrior"
+                    },
+                    {
+                        "Number": "107",
+                        "Name": "Kageningen"
+                    },
+                    {
+                        "Number": "110",
+                        "Name": "Hero of the East"
+                    },
+                    {
+                        "Number": "118",
+                        "Name": "Supporter in the S"
+                    },
+                    {
+                        "Number": "138",
+                        "Name": "Dragon Statue"
+                    },
+                    {
+                        "Number": "147",
+                        "Name": "Monster Egg"
+                    },
+                    {
+                        "Number": "156",
+                        "Name": "Hard Armor"
+                    },
+                    {
+                        "Number": "160",
+                        "Name": "M-warrior #1"
+                    },
+                    {
+                        "Number": "161",
+                        "Name": "M-warrior #2"
+                    },
+                    {
+                        "Number": "166",
+                        "Name": "Mysterious Puppete"
+                    },
+                    {
+                        "Number": "172",
+                        "Name": "Armaill"
+                    },
+                    {
+                        "Number": "182",
+                        "Name": "Masked Clown"
+                    },
+                    {
+                        "Number": "185",
+                        "Name": "Eyearmor"
+                    },
+                    {
+                        "Number": "195",
+                        "Name": "Doron"
+                    },
+                    {
+                        "Number": "214",
+                        "Name": "B. Flame Kagemusha"
+                    },
+                    {
+                        "Number": "224",
+                        "Name": "Trap Master"
+                    },
+                    {
+                        "Number": "226",
+                        "Name": "Skull Stalker"
+                    }
+                ]
+            }
+        ]
+    }
+]

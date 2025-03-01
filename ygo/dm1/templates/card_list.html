@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Card List{% endblock %}
+{% block content %}
+<h2>Card List</h2>
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Card Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for card in cards %}
+        <tr>
+            <td>{{ card.id }}</td>
+            <td><a href="{% url 'card_detail' card.id %}">{{ card.card_name }}</a></td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="2">No cards found.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

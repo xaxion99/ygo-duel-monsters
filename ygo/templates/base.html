@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Yu-Gi-Oh! Cards{% endblock %}</title>
+    {% block extra_head %}
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header nav a {
+            color: #fff;
+            margin: 0 10px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Table styles for card list */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Card detail styles */
+        .card-details {
+            margin-top: 20px;
+        }
+        .card-details section {
+            margin-bottom: 20px;
+        }
+        .card-details h3 {
+            margin-bottom: 10px;
+            color: #0077cc;
+        }
+        /* Links */
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <h1>Yu-Gi-Oh! Card Collection</h1>
+        <nav>
+            <a href="{% url 'card_list' %}">Home</a>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2025 Yu-Gi-Oh! Card Collection</p>
+    </footer>
+</body>
+</html>

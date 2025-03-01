@@ -1,0 +1,784 @@
+[
+    {
+        "Name": "002: Mystical Elf",
+        "Materials": [
+            {
+                "Material1": "#264: Wing Egg Elf",
+                "Material2": "#183: Lucky Trinket"
+            }
+        ]
+    },
+    {
+        "Name": "009: Shadow Specter",
+        "Materials": [
+            {
+                "Material1": "#202: Air Marmot of Nefa",
+                "Material2": "#024: Skull Servant"
+            }
+        ]
+    },
+    {
+        "Name": "011: Sword Arm of Drago",
+        "Materials": [
+            {
+                "Material1": "#225: Fiend Sword",
+                "Material2": [
+                    "#004: Baby Dragon",
+                    "#007: Winged Dragon #1",
+                    "#010: Blackland Fire Dra",
+                    "#031: Koumori Dragon",
+                    "#094: Crawling Dragon",
+                    "#122: Yamatano Dragon Sc",
+                    "#200: Petit Dragon",
+                    "#296: One-eyed Shield Dr",
+                    "#298: Wicked Dragon with"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "015: Flame Swordsman",
+        "Materials": [
+            {
+                "Material1": [
+                    "#133: Charubin the Fire",
+                    "#142: Flame Manipulator",
+                    "#168: Darkfire Dragon",
+                    "#176: Fire Eye",
+                    "#215: Flame Ghost",
+                    "#272: Mavelus"
+                ],
+                "Material2": [
+                    "#012: Swamp Battleguard",
+                    "#041: Celtic Guardian",
+                    "#043: Karbonala Warrior",
+                    "#066: Kojikocy",
+                    "#078: Axe Raider",
+                    "#093: Zanki",
+                    "#100: Battle Warrior",
+                    "#107: Kageningen",
+                    "#110: Hero of the East",
+                    "#118: Supporter in the S",
+                    "#120: Dream Clown",
+                    "#127: Ansatsu",
+                    "#128: LaMoon",
+                    "#138: Dragon Statue",
+                    "#147: Monster Egg",
+                    "#151: Rhaimundos of the",
+                    "#156: Hard Armor",
+                    "#160: M-warrior #1",
+                    "#161: M-warrior #2",
+                    "#165: The Judgement Hand",
+                    "#166: Mysterious Puppete",
+                    "#172: Armaill",
+                    "#182: Masked Clown",
+                    "#185: Eyearmor",
+                    "#195: Doron",
+                    "#214: B. Flame Kagemusha",
+                    "#224: Trap Master",
+                    "#225: Fiend Sword",
+                    "#226: Skull Stalker",
+                    "#231: Wood Clown",
+                    "#234: Beautiful Headhunt",
+                    "#235: Wodan the Resident",
+                    "#236: Guardian of the La",
+                    "#239: Vishwar Randi",
+                    "#250: Hyo",
+                    "#256: Dimensional Knight",
+                    "#262: The Little Swordsm",
+                    "#266: Princess of Tsurug",
+                    "#267: Unknown Warrior of",
+                    "#280: Protector of the T",
+                    "#290: Moon Envoy",
+                    "#293: Masaki the Legenda",
+                    "#294: Dragoness the Wick",
+                    "#299: Sonic Maid"
+                ]
+            },
+            {
+                "Material1": "#291: Fireyarou",
+                "Material2": [
+                    "#012: Swamp Battleguard",
+                    "#041: Celtic Guardian",
+                    "#043: Karbonala Warrior",
+                    "#066: Kojikocy",
+                    "#078: Axe Raider",
+                    "#093: Zanki",
+                    "#100: Battle Warrior",
+                    "#107: Kageningen",
+                    "#110: Hero of the East",
+                    "#118: Supporter in the S",
+                    "#120: Dream Clown",
+                    "#128: LaMoon",
+                    "#138: Dragon Statue",
+                    "#147: Monster Egg",
+                    "#151: Rhaimundos of the",
+                    "#156: Hard Armor",
+                    "#160: M-warrior #1",
+                    "#161: M-warrior #2",
+                    "#165: The Judgement Hand",
+                    "#166: Mysterious Puppete",
+                    "#172: Armaill",
+                    "#182: Masked Clown",
+                    "#185: Eyearmor",
+                    "#195: Doron",
+                    "#214: B. Flame Kagemusha",
+                    "#224: Trap Master",
+                    "#225: Fiend Sword",
+                    "#226: Skull Stalker",
+                    "#231: Wood Clown",
+                    "#234: Beautiful Headhunt",
+                    "#235: Wodan the Resident",
+                    "#236: Guardian of the La",
+                    "#239: Vishwar Randi",
+                    "#250: Hyo",
+                    "#256: Dimensional Knight",
+                    "#262: The Little Swordsm",
+                    "#266: Princess of Tsurug",
+                    "#267: Unknown Warrior of",
+                    "#280: Protector of the T",
+                    "#290: Moon Envoy",
+                    "#293: Masaki the Legenda",
+                    "#294: Dragoness the Wick",
+                    "#299: Sonic Maid"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "022: Summoned Skull",
+        "Materials": [
+            {
+                "Material1": "#254: Embryonic Beast",
+                "Material2": "#016: Time Wizard"
+            },
+            {
+                "Material1": "#103: Job-change Mirror",
+                "Material2": "#085: King of Yamimakai"
+            }
+        ]
+    },
+    {
+        "Name": "028: Rock Ogre Grotto#1",
+        "Materials": [
+            {
+                "Material1": "#263: Rock Ogre Grotto#2",
+                "Material2": [
+                    "#009: Shadow Specter",
+                    "#016: Time Wizard",
+                    "#017: R Leg of Forbidden",
+                    "#018: L Leg of Forbidden",
+                    "#019: R Arm of Forbidden",
+                    "#020: L Arm of Forbidden",
+                    "#024: Skull Servant",
+                    "#029: Mountain Warrior",
+                    "#034: Saggi the Dark Clo",
+                    "#050: Basic Insect",
+                    "#056: Larvae Moth",
+                    "#058: Kuriboh",
+                    "#072: Cocoon of Evolutio",
+                    "#100: Battle Warrior",
+                    "#104: Curtain of the Dar",
+                    "#105: Tomozaurus",
+                    "#108: Graveyard & Hand",
+                    "#121: Sleeping Lion",
+                    "#123: Dark Plant",
+                    "#130: Weather Control",
+                    "#134: Mystical Capture C",
+                    "#135: Fiend's Hand",
+                    "#137: Mystery Hand",
+                    "#141: Spiked Snail",
+                    "#144: Wind Djinn",
+                    "#145: Phantom Thief",
+                    "#147: Monster Egg",
+                    "#152: The Melting Red Sh",
+                    "#156: Hard Armor",
+                    "#159: Dig Beak",
+                    "#167: Ancient Jar",
+                    "#172: Armaill",
+                    "#173: Dark Prisoner",
+                    "#179: Phantom Dewan",
+                    "#182: Masked Clown",
+                    "#183: Lucky Trinket",
+                    "#184: Genin",
+                    "#185: Eyearmor",
+                    "#187: Gate Deeg",
+                    "#191: LaLa Li-oon",
+                    "#192: Key Mace",
+                    "#197: Mech Mole Zombie",
+                    "#200: Petit Dragon",
+                    "#296: One-eyed Shield Dr",
+                    "#298: Wicked Dragon with"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "030: Zombie Warrior",
+        "Materials": [
+            {
+                "Material1": [
+                    "#024: Skull Servant",
+                    "#241: Dark Assailant"
+                ],
+                "Material2": [
+                    "#100: Battle Warrior",
+                    "#107: Kageningen",
+                    "#110: Hero of the East",
+                    "#118: Supporter in the S",
+                    "#120: Dream Clown",
+                    "#138: Dragon Statue",
+                    "#147: Monster Egg",
+                    "#151: Rhaimundos of the",
+                    "#156: Hard Armor",
+                    "#160: M-warrior #1",
+                    "#161: M-warrior #2",
+                    "#166: Mysterious Puppete",
+                    "#172: Armaill",
+                    "#182: Masked Clown",
+                    "#185: Eyearmor",
+                    "#195: Doron",
+                    "#214: B. Flame Kagemusha",
+                    "#224: Trap Master",
+                    "#225: Fiend Sword"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "033: Judge Man",
+        "Materials": [
+            {
+                "Material1": "#225: Fiend Sword",
+                "Material2": [
+                    "#078: Axe Raider",
+                    "#127: Ansatsu",
+                    "#234: Beautiful Headhunt"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "035: D.Magician",
+        "Materials": [
+            {
+                "Material1": "#104: Curtain of the Dar",
+                "Material2": [
+                    "#044: Rogue Doll",
+                    "#106: Spirit of the Wind"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "036: The Snake Hair",
+        "Materials": [
+            {
+                "Material1": "#108: Graveyard & Hand",
+                "Material2": [
+                    "#139: B.eye Silv. Zombie",
+                    "#146: Temple of Skulls",
+                    "#153: Dokuroizo the Grim",
+                    "#215: Flame Ghost",
+                    "#228: Wood Remains"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "037: Gaia the Dragon Ch",
+        "Materials": [
+            {
+                "Material1": "#039: Curse of Dragon",
+                "Material2": "#038: Gaia The Fierce Kn"
+            }
+        ]
+    },
+    {
+        "Name": "038: Gaia The Fierce Kn",
+        "Materials": [
+            {
+                "Material1": "#225: Fiend Sword",
+                "Material2": [
+                    "#012: Swamp Battleguard",
+                    "#015: Flame Swordsman",
+                    "#033: Judge Man"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "041: Celtic Guardian",
+        "Materials": [
+            {
+                "Material1": [
+                    "#002: Mystical Elf",
+                    "#264: Wing Egg Elf"
+                ],
+                "Material2": [
+                    "#100: Battle Warrior",
+                    "#107: Kageningen",
+                    "#110: Hero of the East",
+                    "#118: Supporter in the S",
+                    "#120: Dream Clown",
+                    "#138: Dragon Statue",
+                    "#147: Monster Egg",
+                    "#151: Rhaimundos of the",
+                    "#156: Hard Armor",
+                    "#160: M-warrior #1",
+                    "#161: M-warrior #2",
+                    "#165: The Judgement Hand",
+                    "#166: Mysterious Puppete",
+                    "#172: Armaill",
+                    "#182: Masked Clown",
+                    "#185: Eyearmor",
+                    "#195: Doron",
+                    "#214: B. Flame Kagemusha",
+                    "#224: Trap Master"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "042: Faceless Mage",
+        "Materials": [
+            {
+                "Material1": "#104: Curtain of the Dar",
+                "Material2": [
+                    "#016: Time Wizard",
+                    "#017: R Leg of Forbidden",
+                    "#018: L Leg of Forbidden",
+                    "#019: R Arm of Forbidden",
+                    "#020: L Arm of Forbidden",
+                    "#034: Saggi the Dark Clo",
+                    "#104: Curtain of the Dar",
+                    "#183: Lucky Trinket",
+                    "#184: Genin"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "043: Karbonala Warrior",
+        "Materials": [
+            {
+                "Material1": "#161: M-warrior #2",
+                "Material2": "#160: M-warrior #1"
+            }
+        ]
+    },
+    {
+        "Name": "044: Rogue Doll",
+        "Materials": [
+            {
+                "Material1": "#104: Curtain of the Dar",
+                "Material2": [
+                    "#021: Exod. of Forbidden",
+                    "#114: White Magical Hat",
+                    "#142: Flame Manipulator",
+                    "#174: Hurricail",
+                    "#190: Akakieisu",
+                    "#220: Masked Sorcerer",
+                    "#259: Ancient Sorcerer"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "063: Harpie Lady Sister",
+        "Materials": [
+            {
+                "Material1": "#062: Harpie Lady",
+                "Material2": "#318: Elegant Egotist"
+            }
+        ]
+    },
+    {
+        "Name": "069: Thousand Dragon",
+        "Materials": [
+            {
+                "Material1": "#016: Time Wizard",
+                "Material2": "#004: Baby Dragon"
+            }
+        ]
+    },
+    {
+        "Name": "074: Giant Rock Soldier",
+        "Materials": [
+            {
+                "Material1": "#263: Rock Ogre Grotto#2",
+                "Material2": [
+                    "#002: Mystical Elf",
+                    "#003: Hitotsu-me Giant",
+                    "#004: Baby Dragon",
+                    "#005: Ryu-kishin",
+                    "#006: Feral Imp",
+                    "#008: Mushroom Man",
+                    "#013: Tyhone",
+                    "#021: Exod. of Forbidden",
+                    "#025: Horn Imp",
+                    "#027: Beaver Warrior",
+                    "#028: Rock Ogre Grotto#1",
+                    "#030: Zombie Warrior",
+                    "#042: Faceless Mage",
+                    "#045: Oscillo Hero #2",
+                    "#046: Griffore",
+                    "#047: Torike",
+                    "#048: Sangan",
+                    "#049: Big Insect",
+                    "#053: Killer Needle",
+                    "#054: Gokibore",
+                    "#059: Mammoth Graveyard",
+                    "#061: Wolf",
+                    "#062: Harpie Lady",
+                    "#064: Tiger Axe",
+                    "#065: Silver Fang",
+                    "#070: Fiend Kraken",
+                    "#071: Jellyfish",
+                    "#075: Man-eating Plant",
+                    "#076: Krokodilus",
+                    "#077: Grappler",
+                    "#083: Castle of D. Magic",
+                    "#088: Metal Guardian",
+                    "#089: Catapult Turtle",
+                    "#091: Mystic Horseman",
+                    "#102: Mask of Darkness",
+                    "#103: Job-change Mirror",
+                    "#107: Kageningen",
+                    "#109: All-seeing Goddess",
+                    "#110: Hero of the East",
+                    "#112: Life Eater",
+                    "#113: Dark Gray",
+                    "#114: White Magical Hat",
+                    "#115: Kamionwizard",
+                    "#116: Nightmare Scorpion",
+                    "#118: Supporter in the S",
+                    "#119: Trial of Nightmare",
+                    "#120: Dream Clown",
+                    "#122: Yamatano Dragon Sc",
+                    "#128: LaMoon",
+                    "#129: Nemuriko",
+                    "#132: The 13th Grave",
+                    "#133: Charubin the Fire",
+                    "#138: Dragon Statue",
+                    "#139: B.eye Silv. Zombie",
+                    "#140: Toad Master",
+                    "#141: Chronolord",
+                    "#146: Temple of Skulls",
+                    "#148: Sinister Shadow",
+                    "#151: Rhaimundos of the",
+                    "#153: Dokuroizo the Grim",
+                    "#155: Larvas",
+                    "#158: Man Eater",
+                    "#160: M-warrior #1",
+                    "#161: M-warrior #2",
+                    "#162: Tainted Wisdom",
+                    "#163: Lisark",
+                    "#164: Lord of Zemia",
+                    "#166: Mysterious Puppete",
+                    "#169: Dark King of the A",
+                    "#170: Spirit of the Harp",
+                    "#171: Big Eye",
+                    "#174: Hurricail",
+                    "#175: Ancient Brain",
+                    "#177: Monsturtle",
+                    "#178: Claw Reacher",
+                    "#180: Arlownay",
+                    "#181: Dark Shade",
+                    "#186: Fiend Reflection#2",
+                    "#188: Synchar",
+                    "#190: Akakieisu",
+                    "#193: Turtle Tiger",
+                    "#194: Terra the Terrible",
+                    "#195: Doron",
+                    "#196: Arma Knight",
+                    "#198: Happy Lover",
+                    "#199: Penguin Knight",
+                    "#201: Frenzied Panda",
+                    "#205: Dorover",
+                    "#206: Twin Long Rods#1",
+                    "#213: Aqua Madoor",
+                    "#214: B. Flame Kagemusha",
+                    "#215: Flame Ghost",
+                    "#216: Dryad",
+                    "#218: Two-mouth Darkrule",
+                    "#219: Solitude",
+                    "#220: Masked Sorcerer",
+                    "#222: Midnight Fiend",
+                    "#226: Skull Stalker",
+                    "#228: Wood Remains",
+                    "#231: Wood Clown",
+                    "#233: Dark Titan of Terr",
+                    "#235: Wodan the Resident",
+                    "#236: Guardian of the La",
+                    "#238: Yashinoki",
+                    "#239: Vishwar Randi",
+                    "#241: Dark Assailant",
+                    "#243: Water Element",
+                    "#244: Dissolverock",
+                    "#245: Meda Bat",
+                    "#246: One Who Hunts Soul",
+                    "#247: Root Water",
+                    "#248: Master & Expert",
+                    "#250: Hyo",
+                    "#251: Enchanting Mermaid",
+                    "#252: Nekogal #1",
+                    "#253: Angelwitch",
+                    "#256: Dimensional Knight",
+                    "#257: Stone Armadiller",
+                    "#258: Beastking of the S",
+                    "#259: Ancient Sorcerer",
+                    "#262: The Little Swordsm",
+                    "#265: Sea King of Fury",
+                    "#266: Princess of Tsurug",
+                    "#267: Unknown Warrior of",
+                    "#269: Versago the Destro",
+                    "#270: Wetha",
+                    "#271: Megirus Light",
+                    "#272: Mavelus",
+                    "#276: Ray & Temperature",
+                    "#279: King Fog",
+                    "#280: Protector of the T",
+                    "#282: Mystical Sheep #2",
+                    "#283: Holograh",
+                    "#284: Tao the Chanter",
+                    "#287: Ogre of the Black",
+                    "#290: Moon Envoy",
+                    "#291: Fireyarou",
+                    "#293: Masaki the Legenda",
+                    "#294: Dragoness the Wick",
+                    "#299: Sonic Maid",
+                    "#300: Kurama"
+                ]
+            },
+            {
+                "Material1": [
+                    "#024: Skull Servant",
+                    "#135: Fiend's Hand",
+                    "#197: Mech Mole Zombie",
+                    "#203: Phantom Ghost"
+                ],
+                "Material2": [
+                    "#008: Mushroom Man",
+                    "#075: Man-eating Plant",
+                    "#123: Dark Plant",
+                    "#158: Man Eater",
+                    "#180: Arlownay",
+                    "#238: Yashinoki",
+                    "#273: Ancient Tree of En",
+                    "#274: Green Phantom King"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "230: Rare Fish",
+        "Materials": [
+            {
+                "Material1": [
+                    "#247: Root Water",
+                    "#251: Enchanting Mermaid"
+                ],
+                "Material2": [
+                    "#023: The Wicked Worm B",
+                    "#046: Griffore",
+                    "#047: Torike",
+                    "#061: Wolf",
+                    "#065: Silver Fang",
+                    "#091: Mystic Horseman",
+                    "#113: Dark Gray",
+                    "#121: Sleeping Lion",
+                    "#155: Larvas",
+                    "#159: Dig Beak",
+                    "#163: Lisark",
+                    "#187: Gate Deeg",
+                    "#188: Synchar",
+                    "#189: Fusionist",
+                    "#201: Frenzied Panda",
+                    "#202: Air Marmot of Nefa",
+                    "#212: Meotoko",
+                    "#248: Master & Expert",
+                    "#252: Nekogal #1",
+                    "#255: Prevent Rat",
+                    "#282: Mystical Sheep #2"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "234: Beautiful Headhunt",
+        "Materials": [
+            {
+                "Material1": "#225: Fiend Sword",
+                "Material2": [
+                    "#100: Battle Warrior",
+                    "#107: Kageningen",
+                    "#172: Armaill",
+                    "#195: Doron",
+                    "#214: B. Flame Kagemusha",
+                    "#226: Skull Stalker"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "241: Dark Assailant",
+        "Materials": [
+            {
+                "Material1": [
+                    "#146: Temple of Skulls",
+                    "#153: Dokuroizo the Grim",
+                    "#228: Wood Remains"
+                ],
+                "Material2": [
+                    "#100: Battle Warrior",
+                    "#107: Kageningen",
+                    "#110: Hero of the East",
+                    "#118: Supporter in the S",
+                    "#120: Dream Clown",
+                    "#138: Dragon Statue",
+                    "#147: Monster Egg",
+                    "#151: Rhaimundos of the",
+                    "#156: Hard Armor",
+                    "#160: M-warrior #1",
+                    "#161: M-warrior #2",
+                    "#166: Mysterious Puppete",
+                    "#172: Armaill",
+                    "#182: Masked Clown",
+                    "#185: Eyearmor",
+                    "#195: Doron",
+                    "#214: B. Flame Kagemusha",
+                    "#224: Trap Master"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "244: Dissolverock",
+        "Materials": [
+            {
+                "Material1": [
+                    "#028: Rock Ogre Grotto#1",
+                    "#167: Ancient Jar",
+                    "#237: Haniwa",
+                    "#257: Stone Armadiller",
+                    "#263: Rock Ogre Grotto#2"
+                ],
+                "Material2": [
+                    "#040: Dragon Piper",
+                    "#101: Wings of Wicked Fl",
+                    "#142: Flame Manipulator",
+                    "#154: Fire Reaper",
+                    "#157: Firegrass",
+                    "#176: Fire Eye",
+                    "#210: Hinotama Soul",
+                    "#242: Candle of Destiny"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "251: Enchanting Mermaid",
+        "Materials": [
+            {
+                "Material1": "#247: Root Water",
+                "Material2": [
+                    "#002: Mystical Elf",
+                    "#109: All-seeing Goddess",
+                    "#128: LaMoon",
+                    "#129: Nemuriko",
+                    "#170: Spirit of the Harp",
+                    "#180: Arlownay",
+                    "#192: Key Mace",
+                    "#216: Dryad",
+                    "#239: Vishwar Randi",
+                    "#243: Water Element",
+                    "#253: Angelwitch",
+                    "#260: Lunar Queen Elzaim",
+                    "#266: Princess of Tsurug",
+                    "#280: Protector of the T",
+                    "#299: Sonic Maid"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "272: Mavelus",
+        "Materials": [
+            {
+                "Material1": [
+                    "#062: Harpie Lady",
+                    "#186: Fiend Reflection#2",
+                    "#207: Droll Bird",
+                    "#300: Kurama",
+                    "#062: Harpie Lady"
+                ],
+                "Material2": [
+                    "#040: Dragon Piper",
+                    "#101: Wings of Wicked Fl",
+                    "#133: Charubin the Fire",
+                    "#142: Flame Manipulator",
+                    "#154: Fire Reaper",
+                    "#157: Firegrass",
+                    "#176: Fire Eye",
+                    "#210: Hinotama Soul",
+                    "#215: Flame Ghost",
+                    "#291: Fireyarou",
+                    "#244: Dissolverock",
+                    "#242: Candle of Destiny"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "281: Mystic Clown",
+        "Materials": [
+            {
+                "Material1": "#103: Job-change Mirror",
+                "Material2": [
+                    "#005: Ryu-kishin",
+                    "#048: Sangan",
+                    "#088: Metal Guardian",
+                    "#175: Ancient Brain",
+                    "#178: Claw Reacher",
+                    "#181: Dark Shade",
+                    "#269: Versago the Destro",
+                    "#279: King Fog"
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "294: Dragoness the Wick",
+        "Materials": [
+            {
+                "Material1": [
+                    "#004: Baby Dragon",
+                    "#122: Yamatano Dragon Sc",
+                    "#200: Petit Dragon",
+                    "#296: One-eyed Shield Dr",
+                    "#298: Wicked Dragon with"
+                ],
+                "Material2": [
+                    "#100: Battle Warrior",
+                    "#107: Kageningen",
+                    "#110: Hero of the East",
+                    "#118: Supporter in the S",
+                    "#138: Dragon Statue",
+                    "#147: Monster Egg",
+                    "#156: Hard Armor",
+                    "#160: M-warrior #1",
+                    "#161: M-warrior #2",
+                    "#166: Mysterious Puppete",
+                    "#172: Armaill",
+                    "#182: Masked Clown",
+                    "#185: Eyearmor",
+                    "#195: Doron",
+                    "#214: B. Flame Kagemusha",
+                    "#224: Trap Master",
+                    "#226: Skull Stalker"
+                ]
+            }
+        ]
+    }
+]

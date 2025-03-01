@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Card Details: {{ card.card_name }}{% endblock %}
+{% block content %}
+<h2>{{ card.card_name }}</h2>
+
+<div class="card-details">
+    <section>
+        <h3>Languages</h3>
+        <ul>
+            <li><strong>Japanese:</strong> {{ card.language.japanese }}</li>
+            <li><strong>Rōmaji:</strong> {{ card.language.romaaji }}</li>
+            <li><strong>Translated:</strong> {{ card.language.translated }}</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Image</h3>
+        <img src="{{ card.card_image.src }}" alt="{{ card.card_image.alt }}" width="{{ card.card_image.width }}" height="{{ card.card_image.height }}">
+    </section>
+    <section>
+        <h3>Info</h3>
+        <ul>
+            <li><strong>Number:</strong> {{ card.card_info.number }}</li>
+            <li><strong>ATK/DEF:</strong> {{ card.card_info.atk_def }}</li>
+            <li><strong>Type:</strong> {{ card.card_info.card_type }}</li>
+            <li><strong>Rarity:</strong> {{ card.card_info.rarity }}</li>
+            <li><strong>Lore:</strong> {{ card.card_info.lore }}</li>
+        </ul>
+    </section>
+</div>
+{% endblock %}
