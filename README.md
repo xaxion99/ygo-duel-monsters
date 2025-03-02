@@ -6,8 +6,8 @@ A Django web application to assist with playing DM1 as included in the Yu-Gi-Oh!
 
 - Complete card list with associated metadata (*Note: some names have not been localized*)
 - Complete list of fusion combinations (AFAIK)
-- Collection tracker
-- Fusions based on owned cards
+- Collection tracker with sorting and filtering by owned cards
+- Fusion calculator based on owned cards
 - Fusion calculator based on hand/field
 
 **Beta Features:**
