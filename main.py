@@ -15,7 +15,9 @@ def main():
     # cd.format_json(input_filename=input_filename, output_filename=output_filename, model_name=model_name)
 
     ft = FusionTransformer()
-    ft.transform_file("json/fusions.json", "json/fusions_transformed.json")
+    # ft.transform_file("json/fusions.json", "json/fusions_transformed.json")
+    # ft.convert_to_fixture_format("json/fusions_transformed.json", "json/fusions_fixture.json")
+    ft.run()
 
 
 if __name__ == "__main__":

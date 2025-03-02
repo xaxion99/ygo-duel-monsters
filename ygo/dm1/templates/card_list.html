@@ -5,14 +5,14 @@
 <table>
     <thead>
         <tr>
-            <th>ID</th>
+            <th>Card Number</th>
             <th>Card Name</th>
         </tr>
     </thead>
     <tbody>
         {% for card in cards %}
         <tr>
-            <td>{{ card.id }}</td>
+            <td>{{ card.card_info.number }}</td>
             <td><a href="{% url 'card_detail' card.id %}">{{ card.card_name }}</a></td>
         </tr>
         {% empty %}

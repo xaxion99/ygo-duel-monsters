@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="nav-arrows" style="display:flex; justify-content: space-between; margin-bottom: 1rem;">
+    {% if prev_fusion %}
+      <a class="prev-arrow" href="{% url 'fusion_detail' prev_fusion.pk %}" title="Previous Fusion">&larr;</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if next_fusion %}
+      <a class="next-arrow" href="{% url 'fusion_detail' next_fusion.pk %}" title="Next Fusion">&rarr;</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+  </div>
+
+  <h1>Fusion Detail: {{ fusion.number }}: {{ fusion.name }}</h1>
+
+  {% if fusion.result_card %}
+    <section id="result-card">
+      <h2>Fusion Result Card</h2>
+      <div class="card-details">
+        <h3>
+          <a href="{% url 'card_detail' fusion.result_card.pk %}">
+            {{ fusion.result_card.card_name }}
+          </a>
+        </h3>
+        {% if fusion.result_card.language %}
+          <p><strong>Languages:</strong> {{ fusion.result_card.language.japanese }} / {{ fusion.result_card.language.romaaji }} / {{ fusion.result_card.language.translated }}</p>
+        {% endif %}
+        {% if fusion.result_card.card_image %}
+          <img src="{{ fusion.result_card.card_image.src }}" alt="{{ fusion.result_card.card_image.alt }}" width="{{ fusion.result_card.card_image.width }}">
+        {% endif %}
+        {% if fusion.result_card.card_info %}
+          <p><strong>Number:</strong> {{ fusion.result_card.card_info.number }}</p>
+          <p><strong>ATK/DEF:</strong> {{ fusion.result_card.card_info.atk_def }}</p>
+          <p><strong>Type:</strong> {{ fusion.result_card.card_info.card_type }}</p>
+          <p><strong>Rarity:</strong> {{ fusion.result_card.card_info.rarity }}</p>
+          <p><strong>Lore:</strong> {{ fusion.result_card.card_info.lore }}</p>
+        {% endif %}
+      </div>
+      <hr>
+    </section>
+  {% endif %}
+
+  <h2>Fusion Materials</h2>
+  {% if fusion.material_groups.all %}
+    {% for group in fusion.material_groups.all %}
+      <div class="material-group">
+        <h3>Material Group {{ forloop.counter }}</h3>
+        <div>
+          <strong>Material 1:</strong>
+          <ul>
+            {% for card in group.material1.all %}
+              <li>
+                <a href="{% url 'card_detail' card.pk %}">
+                  {{ card.card_name }}
+                </a>
+              </li>
+            {% empty %}
+              <li>No Material 1 cards.</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <strong>Material 2:</strong>
+          <ul>
+            {% for card in group.material2.all %}
+              <li>
+                <a href="{% url 'card_detail' card.pk %}">
+                  {{ card.card_name }}
+                </a>
+              </li>
+            {% empty %}
+              <li>No Material 2 cards.</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <hr>
+    {% endfor %}
+  {% else %}
+    <p>No fusion materials found.</p>
+  {% endif %}
+
+  <p>
+    <a href="{% url 'fusion_list' %}">Back to Fusion List</a>
+  </p>
+{% endblock %}

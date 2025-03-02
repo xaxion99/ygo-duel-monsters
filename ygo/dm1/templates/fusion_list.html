@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Fusion List{% endblock %}
+{% block content %}
+  <h2>Fusion List</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Fusion Number</th>
+        <th>Fusion Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for fusion in fusions %}
+      <tr>
+        <td>{{ fusion.number }}</td>
+        <td>
+          <a href="{% url 'fusion_detail' fusion.pk %}">
+            {{ fusion.name }}
+          </a>
+        </td>
+      </tr>
+      {% empty %}
+      <tr>
+        <td colspan="2">No fusions found.</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

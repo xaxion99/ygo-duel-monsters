@@ -18,9 +18,21 @@
             padding: 20px;
             text-align: center;
         }
+        header nav {
+            margin-top: 10px;
+        }
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        header nav ul li {
+            margin: 0 10px;
+        }
         header nav a {
             color: #fff;
-            margin: 0 10px;
             font-weight: bold;
             text-decoration: none;
         }
@@ -75,6 +87,15 @@
         a:hover {
             text-decoration: underline;
         }
+        /* Navigation arrows */
+        .nav-arrows a {
+            font-size: 2rem;
+            text-decoration: none;
+            color: #333;
+        }
+        .nav-arrows a:hover {
+            color: #007bff;
+        }
     </style>
     {% endblock %}
 </head>
@@ -82,7 +103,24 @@
     <header>
         <h1>Yu-Gi-Oh! Card Collection</h1>
         <nav>
-            <a href="{% url 'card_list' %}">Home</a>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'card_list' %}">Cards</a></li>
+                <li><a href="{% url 'fusion_list' %}">Fusions</a></li>
+                {% if user.is_authenticated %}
+                  <li><a href="{% url 'collection_edit' %}">Collection</a></li>
+                  <li>
+                      <form method="post" action="{% url 'logout' %}" style="display: inline;">
+                        {% csrf_token %}
+                        <button type="submit" style="background: none; border: none; color: #fff; font-weight: bold; cursor: pointer;">
+                          Logout
+                        </button>
+                      </form>
+                  </li>
+                {% else %}
+                  <li><a href="{% url 'login' %}">Login</a></li>
+                {% endif %}
+            </ul>
         </nav>
     </header>
     <main>

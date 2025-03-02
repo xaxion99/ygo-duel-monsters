@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>Your Card Collection</h2>
+  <form method="post">
+    {% csrf_token %}
+    <table>
+      <thead>
+        <tr>
+          <th>Card Number</th>
+          <th>Card Name</th>
+          <th>Quantity Owned</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for form in formset %}
+          {% with card=form.instance.card %}
+          <tr>
+            <td>{{ card.card_info.number }}</td>
+            <td>{{ card.card_name }}</td>
+            <td>{{ form.quantity }}</td>
+          </tr>
+          {% endwith %}
+        {% endfor %}
+      </tbody>
+    </table>
+    <button type="submit">Save Collection</button>
+  </form>
+{% endblock %}
