@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% block title %}Fusion Calculator{% endblock %}
+{% block extra_head %}
+  {{ block.super }}
+  <!-- Include jQuery and jQuery UI (or your preferred autocomplete library) -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+{% endblock %}
+{% block content %}
+  <nav>
+    <ul style="list-style: none; display: flex; gap: 15px; padding: 0;">
+      <li><a href="{% url 'collection_edit' %}">Collections Home</a></li>
+      <li><a href="{% url 'deck_fusion_calculator' %}">Deck Fusion Calculator</a></li>
+      <li><a href="{% url 'fusion_calculator' %}">Deck Fusion Calculator</a></li>
+    </ul>
+  </nav>
+
+  <h2>Fusion Calculator</h2>
+  <p>Type to search for cards. Fill in at least 2 inputs to see available fusions.</p>
+  <form id="fusion-search-form">
+    {% csrf_token %}
+    <div id="card-inputs">
+      {% for i in "12345678910"|make_list %}
+        <input type="text" name="card_{{ i }}" class="fusion-card-input" placeholder="Card name {{ i }}">
+        <!-- A hidden input to store the selected card's ID -->
+        <input type="hidden" name="card_id_{{ i }}" class="fusion-card-id">
+      {% endfor %}
+    </div>
+  </form>
+  
+  <button id="search-fusions">Search Fusions</button>
+  
+  <h3>Primary Fusions</h3>
+  <table id="primary-fusions-table" border="1">
+    <thead>
+      <tr>
+        <th>Material 1</th>
+        <th>Material 1 ATK/DEF</th>
+        <th>Material 2</th>
+        <th>Material 2 ATK/DEF</th>
+        <th>Result Card</th>
+        <th>Result Card ATK/DEF</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Filled via AJAX -->
+    </tbody>
+  </table>
+  
+  <h3>Secondary Fusions [BETA]</h3>
+  <table id="secondary-fusions-table" border="1">
+    <thead>
+      <tr>
+        <th>Material 1</th>
+        <th>Material 1 ATK/DEF</th>
+        <th>Material 2</th>
+        <th>Material 2 ATK/DEF</th>
+        <th>Result Card</th>
+        <th>Result Card ATK/DEF</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Filled via AJAX -->
+    </tbody>
+  </table>
+  
+  <script>
+    $(function() {
+      // Set up autocomplete on each input field
+      $(".fusion-card-input").autocomplete({
+        source: "{% url 'card_autocomplete' %}",
+        minLength: 2,
+        select: function(event, ui) {
+          // On select, store the card id in the hidden input next to it
+          $(this).next(".fusion-card-id").val(ui.item.id);
+        }
+      });
+      
+      // When the search button is clicked, gather selected card IDs and query the API
+      $("#search-fusions").click(function(e) {
+        e.preventDefault();
+        var cardIds = [];
+        $(".fusion-card-id").each(function() {
+          var val = $(this).val();
+          if (val) {
+            cardIds.push(val);
+          }
+        });
+        if (cardIds.length < 2) {
+          alert("Please select at least two cards.");
+          return;
+        }
+        $.ajax({
+          url: "{% url 'fusion_search_api' %}",
+          data: { cards: cardIds.join(",") },
+          dataType: "json",
+          success: function(data) {
+            // Populate primary fusions table
+            var primaryTbody = $("#primary-fusions-table tbody");
+            primaryTbody.empty();
+            $.each(data.primary_fusions, function(i, fusion) {
+              primaryTbody.append(
+                "<tr>" +
+                  "<td><a href='" + fusion.material1.detail_url + "'>" + fusion.material1.name + "</a></td>" +
+                  "<td>" + fusion.material1.atk_def + "</td>" +
+                  "<td><a href='" + fusion.material2.detail_url + "'>" + fusion.material2.name + "</a></td>" +
+                  "<td>" + fusion.material2.atk_def + "</td>" +
+                  "<td><a href='" + fusion.result.detail_url + "'>" + fusion.result.name + "</a></td>" +
+                  "<td>" + fusion.result.atk_def + "</td>" +
+                "</tr>"
+              );
+            });
+            // Populate secondary fusions table
+            var secondaryTbody = $("#secondary-fusions-table tbody");
+            secondaryTbody.empty();
+            $.each(data.secondary_fusions, function(i, fusion) {
+              secondaryTbody.append(
+                "<tr>" +
+                  "<td><a href='" + fusion.material1.detail_url + "'>" + fusion.material1.name + "</a></td>" +
+                  "<td>" + fusion.material1.atk_def + "</td>" +
+                  "<td><a href='" + fusion.material2.detail_url + "'>" + fusion.material2.name + "</a></td>" +
+                  "<td>" + fusion.material2.atk_def + "</td>" +
+                  "<td><a href='" + fusion.result.detail_url + "'>" + fusion.result.name + "</a></td>" +
+                  "<td>" + fusion.result.atk_def + "</td>" +
+                "</tr>"
+              );
+            });
+          }
+        });
+      });
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <nav>
+    <ul style="list-style: none; display: flex; gap: 15px; padding: 0;">
+      <li><a href="{% url 'collection_edit' %}">Collections Home</a></li>
+      <li><a href="{% url 'deck_fusion_calculator' %}">Deck Fusion Calculator</a></li>
+      <li><a href="{% url 'fusion_calculator' %}">Deck Fusion Calculator</a></li>
+    </ul>
+  </nav>
+
+  <h2>Deck Fusion Calculator</h2>
+
+  {# Primary fusion table #}
+  {% if possible_fusions %}
+    <h3>Possible Fusions</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Material 1</th>
+          <th>Material 1 ATK/DEF</th>
+          <th>Material 2</th>
+          <th>Material 2 ATK/DEF</th>
+          <th>Fusion Result</th>
+          <th>Result ATK/DEF</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for fusion in possible_fusions %}
+          <tr>
+            <td>
+              <a href="{% url 'card_detail' fusion.material1.id %}">
+                {{ fusion.material1.card_name }}
+              </a>
+            </td>
+            <td>{{ fusion.material1.card_info.atk_def }}</td>
+            <td>
+              <a href="{% url 'card_detail' fusion.material2.id %}">
+                {{ fusion.material2.card_name }}
+              </a>
+            </td>
+            <td>{{ fusion.material2.card_info.atk_def }}</td>
+            <td>
+              <a href="{% url 'card_detail' fusion.result.id %}">
+                {{ fusion.result.card_name }}
+              </a>
+            </td>
+            <td>{{ fusion.result.card_info.atk_def }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p>No possible fusions with your current collection.</p>
+  {% endif %}
+
+  {# Secondary fusion table: fusions where the result card is also used as a material #}
+  {% if secondary_possible_fusions %}
+    <h3>Secondary Fusions (Result Cards as Materials) [BETA]</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Material 1</th>
+          <th>Material 1 ATK/DEF</th>
+          <th>Material 2</th>
+          <th>Material 2 ATK/DEF</th>
+          <th>Fusion Result</th>
+          <th>Result ATK/DEF</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for fusion in secondary_possible_fusions %}
+          <tr>
+            <td>
+              <a href="{% url 'card_detail' fusion.material1.id %}">
+                {{ fusion.material1.card_name }}
+              </a>
+            </td>
+            <td>{{ fusion.material1.card_info.atk_def }}</td>
+            <td>
+              <a href="{% url 'card_detail' fusion.material2.id %}">
+                {{ fusion.material2.card_name }}
+              </a>
+            </td>
+            <td>{{ fusion.material2.card_info.atk_def }}</td>
+            <td>
+              <a href="{% url 'card_detail' fusion.result.id %}">
+                {{ fusion.result.card_name }}
+              </a>
+            </td>
+            <td>{{ fusion.result.card_info.atk_def }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+{% endblock %}

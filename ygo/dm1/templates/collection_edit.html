@@ -1,29 +1,90 @@
 {% extends "base.html" %}
+{% load card_extras %}
+{% load string_extras %}
 
 {% block content %}
+  <nav>
+    <ul style="list-style: none; display: flex; gap: 15px; padding: 0;">
+      <li><a href="{% url 'collection_edit' %}">Collections Home</a></li>
+      <li><a href="{% url 'deck_fusion_calculator' %}">Deck Fusion Calculator</a></li>
+      <li><a href="{% url 'fusion_calculator' %}">Deck Fusion Calculator</a></li>
+    </ul>
+  </nav>
+
   <h2>Your Card Collection</h2>
+
+  <div style="margin: 10px 0;">
+    <strong>Filter: </strong>
+    <a href="?filter=all">All Cards</a> |
+    <a href="?filter=owned">Owned Cards Only</a>
+  </div>
+
   <form method="post">
     {% csrf_token %}
+    {{ formset.management_form }}
+    <button type="submit" style="margin-bottom: 10px;">Save Collection</button>
     <table>
       <thead>
         <tr>
-          <th>Card Number</th>
-          <th>Card Name</th>
-          <th>Quantity Owned</th>
+          <th>
+            Card Number
+            <a href="?filter={{ filter }}&sort=card__card_info__number&order=asc">&#9650;</a>
+            <a href="?filter={{ filter }}&sort=card__card_info__number&order=desc">&#9660;</a>
+          </th>
+          <th>
+            Card Name
+            <a href="?filter={{ filter }}&sort=card__card_name&order=asc">&#9650;</a>
+            <a href="?filter={{ filter }}&sort=card__card_name&order=desc">&#9660;</a>
+          </th>
+          <th>
+            ATK
+            <a href="?filter={{ filter }}&sort=atk&order=asc">&#9650;</a>
+            <a href="?filter={{ filter }}&sort=atk&order=desc">&#9660;</a>
+          </th>
+          <th>
+            DEF
+            <a href="?filter={{ filter }}&sort=def&order=asc">&#9650;</a>
+            <a href="?filter={{ filter }}&sort=def&order=desc">&#9660;</a>
+          </th>
+          <th>
+            Quantity Owned
+            <a href="?filter={{ filter }}&sort=quantity&order=asc">&#9650;</a>
+            <a href="?filter={{ filter }}&sort=quantity&order=desc">&#9660;</a>
+          </th>
         </tr>
       </thead>
       <tbody>
         {% for form in formset %}
+          {{ form.errors }}
           {% with card=form.instance.card %}
           <tr>
-            <td>{{ card.card_info.number }}</td>
-            <td>{{ card.card_name }}</td>
+            <td>
+              {{ form.id }} {# Hidden field for the instance ID #}
+              {{ card.card_info.number }}
+            </td>
+            <td>
+              <a href="{% url 'card_detail' card.id %}">{{ card.card_name }}</a>
+            </td>
+            <td>
+              {% with stats=card.card_info.atk_def|split:"/" %}
+                {% if stats|length > 0 %}
+                  {{ stats.0|trim }}
+                {% endif %}
+              {% endwith %}
+            </td>
+            <td>
+              {% with stats=card.card_info.atk_def|split:"/" %}
+                {% if stats|length > 1 %}
+                  {{ stats.1|trim }}
+                {% endif %}
+              {% endwith %}
+            </td>
             <td>{{ form.quantity }}</td>
           </tr>
           {% endwith %}
         {% endfor %}
       </tbody>
     </table>
-    <button type="submit">Save Collection</button>
+    <button type="submit" style="margin-top: 10px;">Save Collection</button>
   </form>
 {% endblock %}

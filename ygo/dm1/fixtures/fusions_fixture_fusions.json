@@ -1,0 +1,245 @@
+[
+    {
+        "model": "dm1.fusion",
+        "pk": 1,
+        "fields": {
+            "number": "2",
+            "name": "Mystical Elf",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 2,
+        "fields": {
+            "number": "9",
+            "name": "Shadow Specter",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 3,
+        "fields": {
+            "number": "11",
+            "name": "Sword Arm of Drago",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 4,
+        "fields": {
+            "number": "15",
+            "name": "Flame Swordsman",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 5,
+        "fields": {
+            "number": "22",
+            "name": "Summoned Skull",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 6,
+        "fields": {
+            "number": "28",
+            "name": "Rock Ogre Grotto#1",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 7,
+        "fields": {
+            "number": "30",
+            "name": "Zombie Warrior",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 8,
+        "fields": {
+            "number": "33",
+            "name": "Judge Man",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 9,
+        "fields": {
+            "number": "35",
+            "name": "D.Magician",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 10,
+        "fields": {
+            "number": "36",
+            "name": "The Snake Hair",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 11,
+        "fields": {
+            "number": "37",
+            "name": "Gaia the Dragon Ch",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 12,
+        "fields": {
+            "number": "38",
+            "name": "Gaia The Fierce Kn",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 13,
+        "fields": {
+            "number": "41",
+            "name": "Celtic Guardian",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 14,
+        "fields": {
+            "number": "42",
+            "name": "Faceless Mage",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 15,
+        "fields": {
+            "number": "43",
+            "name": "Karbonala Warrior",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 16,
+        "fields": {
+            "number": "44",
+            "name": "Rogue Doll",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 17,
+        "fields": {
+            "number": "63",
+            "name": "Harpie Lady Sister",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 18,
+        "fields": {
+            "number": "69",
+            "name": "Thousand Dragon",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 19,
+        "fields": {
+            "number": "74",
+            "name": "Giant Rock Soldier",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 20,
+        "fields": {
+            "number": "230",
+            "name": "Rare Fish",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 21,
+        "fields": {
+            "number": "234",
+            "name": "Beautiful Headhunt",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 22,
+        "fields": {
+            "number": "241",
+            "name": "Dark Assailant",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 23,
+        "fields": {
+            "number": "244",
+            "name": "Dissolverock",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 24,
+        "fields": {
+            "number": "251",
+            "name": "Enchanting Mermaid",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 25,
+        "fields": {
+            "number": "272",
+            "name": "Mavelus",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 26,
+        "fields": {
+            "number": "281",
+            "name": "Mystic Clown",
+            "result_card": null
+        }
+    },
+    {
+        "model": "dm1.fusion",
+        "pk": 27,
+        "fields": {
+            "number": "294",
+            "name": "Dragoness the Wick",
+            "result_card": null
+        }
+    }
+]
